@@ -1,0 +1,16 @@
+{
+  "title": "Hello React",
+  "description": "An example library that uses React",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 2,
+  "runnable": 1,
+  "author": "Erik",
+  "license": "MIT",
+  "machineName": "H5P.HelloReact",
+  "preloadedJs": [
+    {
+      "path": "dist/main.js"
+    }
+  ]
+}
