@@ -3,11 +3,16 @@ import { createRoot } from "react-dom/client";
 
 import App from "./components/App.jsx";
 
-class HelloReact {
+class HelloReact extends H5P.EventDispatcher {
 
   constructor(options, id) {
+    super();
     this.options = options;
     this.id = id;
+
+    this.on('resize', function (event) {
+      console.log(event);
+    });
   }
 
   attach($container) {
