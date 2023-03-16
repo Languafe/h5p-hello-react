@@ -1,7 +1,7 @@
 import H5P from "./H5P";
 import { createRoot } from "react-dom/client";
 
-import App from "./components/App.jsx";
+import App from "@components/App.jsx";
 
 class HelloReact extends H5P.EventDispatcher {
 
